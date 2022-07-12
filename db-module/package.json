@@ -1,0 +1,24 @@
+{
+    "name": "db-module",
+    "version": "1.0.0",
+    "description": "Simple IoT Platform -DB Module",
+    "main": "index.js",
+    "scripts": {
+        "setup": "@powershell $env:DEBUG='API:*';node setup.js",
+        "lint": "standard",
+        "lint-fix": "standard --fix"
+    },
+    "author": "Camilo Andres Agudelo",
+    "license": "MIT",
+    "devDependencies": {
+        "standard": "^17.0.0"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "cross-env": "^7.0.3",
+        "debug": "^4.3.4",
+        "inquirer": "^8.0.0",
+        "mysql2": "^2.3.3",
+        "sequelize": "^6.21.3"
+    }
+}
